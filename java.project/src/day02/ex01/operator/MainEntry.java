@@ -1,4 +1,4 @@
-package ex01.operator;
+package day02.ex01.operator;
 // 최 단 산 쉬 관 논 삼 대 콤
 public class MainEntry {
 	public static void main(String[] args) {

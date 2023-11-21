@@ -7,12 +7,10 @@ public class Quiz02 {
 		int min = su %3600 / 60;
 		int sec = su % 60;
 		
-		System.out.println(hour + "시");
-		System.out.println(min + "분");
-		System.out.println(sec + "초");
+		System.out.println(hour + "시 " + min + "분 " + sec + "초");
 	}
-
 }
+
 /* 
 int su = 12345;
 

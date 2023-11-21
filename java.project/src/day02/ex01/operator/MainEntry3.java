@@ -1,4 +1,4 @@
-package ex01.operator;
+package day02.ex01.operator;
 
 public class MainEntry3 {
 	public static void main(String[] args) {
