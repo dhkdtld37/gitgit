@@ -13,10 +13,6 @@ public class OperatorTest5 {
 		System.out.println("x = " +x +",  y =" + y);
 		
 		x = x * y;
-		x * = y;
-		
-		
-		
 	}
 
 }

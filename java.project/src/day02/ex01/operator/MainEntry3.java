@@ -16,7 +16,6 @@ public class MainEntry3 {
 		System.out.println(" 7 % 3 =" + (7%3));
 		System.out.println("\n 7 / 3.0 =" + (7/3.) );
 		System.out.println(" 7.0 % 3.0 = " + (7. % 3.));
-		
 	}
 
 }

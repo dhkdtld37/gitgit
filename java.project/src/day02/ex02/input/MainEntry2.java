@@ -1,15 +1,21 @@
-package day02.quiz;
-// import java.lang.*; // java.lang package 자동 임포트
+package day02.ex02.input;
 import java.lang.String;
-import java.lang.System;;
+import java.lang.System;
+import java.util.Scanner;
 
-public class QuizScore { 
+public class MainEntry2 {
 	public static void main(String[] args) {
-		int kor = 90;
-		int eng = 88;
-		int com = 100;
-		int total = kor + eng+ com;
-		double avg =(double)(kor + eng + com) / 3;
+		int kor, eng, com, total = 0;
+		double avg = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("name input : ");
+		String name = sc.next();
+		System.out.println("kor, eng, com data input : ");
+		kor = sc.nextInt();
+		eng = sc.nextInt();
+		com = sc.nextInt();
+		total = kor + eng + com;
+		avg = total / 3.0;
 		
 		System.out.println(" ===임성현 님의 성적표===");
 		System.out.printf("국어 : %d점, 영어 : %d점, 전산 : %d점\n", kor, eng, com);
@@ -21,12 +27,3 @@ public class QuizScore {
 	}
 
 }
-
-/*
-  result : 
-  임성현님의 성적표
-  국어 : 90, 영어 : 88 전산 : 100
-  총점 : 278, 평균 92.67
- */
-
-

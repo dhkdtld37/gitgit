@@ -11,8 +11,7 @@ public class MainEntry4 {
 		
 		System.out.println( "left shift result : " + result);
 		System.out.println( "right shift result : " + result2);
-		System.out.println( "left shift result : " + result3);
-		
+		System.out.println( "left shift result : " + result3);	
 	}
 
 }
