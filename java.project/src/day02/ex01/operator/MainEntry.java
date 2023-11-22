@@ -17,3 +17,4 @@ public class MainEntry {
 		System.out.println("a = " + a + ", b = " + b);
 	}
 }
+

@@ -1,4 +1,4 @@
-package day03.control;
+package day03.ex01.control;
 
 import java.util.Scanner;
 
@@ -15,3 +15,4 @@ public class MainEntry {
 		}
 	}
 }
+

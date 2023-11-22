@@ -1,6 +1,6 @@
 package day01;
 
-public class dataType2 {
+public class DataType2 {
 	public static void main(String[] args) {
 char ch = 'A';	// ASCII code
 		

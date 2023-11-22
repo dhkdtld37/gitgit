@@ -1,6 +1,6 @@
 package day01;
 
-public class dataType {
+public class DataType {
 	public static void main(String[] args) {
 		short sh = -32768; 	// -32,768 ~ 32767
 		int su = 32768; 	// -21억 ~ 21억
