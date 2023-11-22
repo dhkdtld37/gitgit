@@ -1,4 +1,4 @@
-package day03.quiz;
+package day03.quiz.ex01;
 import java.util.Scanner;
 public class QuizIf0301 {
 	public static void main(String[] args) {

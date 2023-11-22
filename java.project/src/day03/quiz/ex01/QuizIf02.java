@@ -5,7 +5,7 @@
  		if ( 년도 % 100 ! = 0) || (년도 % 400 == 0)
 			'윤년';
 */
-package day03.quiz;
+package day03.quiz.ex01;
 
 import java.util.Scanner;
 

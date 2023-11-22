@@ -1,6 +1,6 @@
 // 문제 1 ] 숫자 2개 입력 받아서 큰 수 출력하는 프로그램 작성
 
-package day03.quiz;
+package day03.quiz.ex01;
 
 import java.util.Scanner;
 

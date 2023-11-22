@@ -27,6 +27,5 @@ public class MainEntry1 {
 		}
 		System.out.println(result);
 	}
-
 }
 

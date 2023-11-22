@@ -3,7 +3,7 @@
 			각 과목 과락 40점 이하이면 과목 불합격 처리하는 프로그램 작성
 */
 
-package day03.quiz;
+package day03.quiz.ex01;
  
 import java.util.Scanner;
 
