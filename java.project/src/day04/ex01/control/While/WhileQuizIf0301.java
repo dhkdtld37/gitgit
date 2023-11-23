@@ -3,14 +3,17 @@ import java.util.Scanner;
 public class WhileQuizIf0301 {
 	public static void main(String[] args) {
 		int math, eng, kor = 0;
-        Scanner sc = new Scanner(System.in);
+        do {
+        	Scanner sc = new Scanner(System.in);
+        	System.out.println("0점에서 100점만 입력하시오.");
 
-        System.out.print("전산 점수 입력 : ");
-        math = sc.nextInt();
-        System.out.print("영어 점수 입력 : ");
-        eng = sc.nextInt();
-        System.out.print("국어 점수 입력 : ");
-        kor = sc.nextInt();
+        	System.out.print("전산 점수 입력 : ");
+        	math = sc.nextInt();
+        	System.out.print("영어 점수 입력 : ");
+        	eng = sc.nextInt();
+        	System.out.print("국어 점수 입력 : ");
+        	kor = sc.nextInt();
+        } while (math < 0 || math > 101 || eng < 0 || eng > 101 || kor < 0 || kor > 101);
 
         double avg = (double)(math + eng + kor) / 3;
 

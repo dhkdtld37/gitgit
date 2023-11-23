@@ -8,8 +8,8 @@ public class WhileGuGuDan2 {
 		int b = 1;
 				
 		System.out.println("=================");
-		b=1;
 		do {
+			b = 1;
 			do {
 			System.out.print (a + " X " + b + " = " + a*b + "  ||    ");
 			} while (++b < 10);
