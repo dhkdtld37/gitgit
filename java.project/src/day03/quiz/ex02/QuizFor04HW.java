@@ -29,6 +29,7 @@ public class QuizFor04HW {
 				System.out.print(num1 + " * " + num2 + " = " + c); break;
 			case "/" :
 				System.out.print(num1 + " ÷ " + num2 + " = " + d); break;
+				default : System.out.println("+, -, *, ÷ 만 입력하세요.");
 		}
 	}
 }
