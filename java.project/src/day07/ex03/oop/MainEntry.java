@@ -26,11 +26,7 @@ class Circle {
 	public void display () {
 		System.out.println( getX() + ", " + getY() + ", " + getZ() );
 	}
-	
-	
-	
 	// output
-	
 }	// circle end
 
 
