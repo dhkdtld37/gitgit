@@ -1,6 +1,6 @@
 package day07.quiz;
 
-public class MainEntry {
+public class TV02 {
 	public static void main(String[] args) {
 		TV tv = new TV ();
 		TV tv1 = new TV ("red");
