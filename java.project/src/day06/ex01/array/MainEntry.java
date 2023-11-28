@@ -21,7 +21,6 @@ public class MainEntry {
 				for (int k = 0; k < a3[i][j].length; k++) {
 					
 					System.out.print(a3[i][j][k]+"\t");
-					
 				} // k end
 				System.out.println();
 			} // j end
