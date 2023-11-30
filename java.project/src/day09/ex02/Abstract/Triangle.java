@@ -1,7 +1,7 @@
 package day09.ex02.Abstract;
 
 class Triangle extends Shape {
-// the type triangle must implement the inherited abstract method shape.calc(double)
+	
 	public double calc(double x, double y) {
 		result = (x*y)/2;
 		return result;
