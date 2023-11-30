@@ -1,5 +1,5 @@
 // 백준 - 영수증 문제
-package testlim;
+package groupquiz;
 import java.util.Scanner;
 public class group201 {
 	public static void main(String[] args) {

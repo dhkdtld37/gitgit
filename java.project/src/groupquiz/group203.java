@@ -1,5 +1,5 @@
 // 백준 - 행렬 덧셈
-package testlim;
+package groupquiz;
 import java.util.Scanner;
 public class group203 {
 	public static void main(String[] args) {

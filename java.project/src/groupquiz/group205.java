@@ -1,5 +1,5 @@
 // 팰린드롬인지 확인하기
-package testlim;
+package groupquiz;
 import java.util.Scanner;
 
 public class group205 {

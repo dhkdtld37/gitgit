@@ -1,5 +1,5 @@
 // 백준 저항 @@ 전혀 모르겠음
-package testlim;
+package groupquiz;
 import java.util.*;
 public class group206 {
 	public static void main(String[] args) {

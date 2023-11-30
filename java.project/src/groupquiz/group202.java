@@ -1,5 +1,5 @@
 // 백준 - 배열 최소, 최대
-package testlim;
+package groupquiz;
 import java.util.Scanner;
 public class group202 {
 	public static void main(String[] args) {

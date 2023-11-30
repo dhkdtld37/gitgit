@@ -4,12 +4,15 @@ public class MainEntry {
 	public static void main(String[] args) {
         Point pt = new Point();
         Point pt2 = new Point(2);
-        pt.display();
+ //       pt.display();
         pt2.setX(40);
-        pt.display();
-        pt2.display();
+//       pt.display();
+//       pt2.display();
         pt.setY(100);
-        pt.display();
+//        pt.display();
+        System.out.println(pt);
+        System.out.println(pt2);
+        
     
 		System.out.println("Circle object");
 		

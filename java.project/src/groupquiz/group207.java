@@ -1,5 +1,5 @@
 // 단어의 갯수 - 백준
-package testlim;
+package groupquiz;
 import java.util.Scanner;
 public class group207 {
 	public static void main(String[] args) {
