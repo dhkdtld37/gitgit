@@ -17,7 +17,5 @@ public class StringTokenizerEx2 {
 			else if (str.equals("|")) System.out.println("\n");
 			else System.out.println(str);
 		}
-		
 	}
-
 }
