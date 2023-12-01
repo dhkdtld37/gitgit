@@ -16,7 +16,7 @@ public class group210 {
         long sum = 0;
         
         for (int i = 1; i <= N; i++) {
-            sum += f(i);
+            sum += f (i);
         }
 
         return sum;
