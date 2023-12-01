@@ -47,5 +47,19 @@ public class StringMain {
 		for (int i = 0; i < s5.length; i++) {
 			System.out.println(s5[i]);
 		}
+		
+		System.out.println();
+		String s9 = "123456789abcdef";
+		char ch = s9.charAt(14);
+		System.out.println(ch);
+		System.out.println(s9.indexOf('f'));
+		System.out.println(s9.lastIndexOf('f'));
+		System.out.println(s9.substring(3));
+		System.out.println(s9.substring(5, 7));
+		
+		System.out.println();
+		System.out.println(s2 + " 소문자 출력 toLowerCase() : " + s2.toLowerCase());
+		System.out.println(s1 + " 대문자 출력 toUpperCase() : " + s1.toUpperCase());
+		
 	}
 }
