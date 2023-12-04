@@ -66,6 +66,25 @@ public class VectorEx02 {
 			System.out.print(v.get(i) + ", ");
 		}
 		
+		System.out.println();
+		System.out.println("------------------------------------------");
+		System.out.println();
+		
+		v.setElementAt("java", 2);  // index 3번째 위치에 java 문자열 추가
+		enu = v.elements();
+		while ( enu.hasMoreElements()) {
+			System.out.print(enu.nextElement() + "\t");
+		}
+		
+		System.out.println("\n------------------------------------------");
+		
+		v.removeAllElements(); 		// 모든 요소 제거
+		System.out.println("size : " + v.size() + ",  capacity : " + v.capacity());
+		
+		v.trimToSize();		// 용량 조정하기
+		System.out.println("size : " + v.size() + ",  capacity : " + v.capacity());
+		
+		
 	}
 	
 }
