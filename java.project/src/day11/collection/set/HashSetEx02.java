@@ -15,7 +15,7 @@ public class HashSetEx02 {
 			set.add(objarr[i]);
 		}
 		
-		System.out.println(objarr);
+		System.out.println(set);
 	}
 	
 }
