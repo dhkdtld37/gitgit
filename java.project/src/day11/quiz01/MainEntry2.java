@@ -2,7 +2,7 @@
  ArrayList or Vector 이용해서
  고객추가 / 삭제 / 고객 리스트 출력 / 수정 / 종료 프로그램 작성
  */
-package day11.quiz.collection.list;
+package day11.quiz01;
 
 import java.util.ArrayList;
 import java.util.Iterator;

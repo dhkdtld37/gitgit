@@ -1,4 +1,4 @@
-package day11.quiz.collection.list02;
+package day11.quiz02;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -3,7 +3,7 @@
  		name, address, tel field
  		생성자 함수, setter / getter method
  */
-package day11.quiz.collection.list;
+package day11.quiz01;
 
 import java.util.Scanner;
 
