@@ -1,4 +1,6 @@
-package day11.quiz.collection.list;
+/*
+ package day11.quiz.collection.list;
+ 
 
 public class MainEntry {
 	public static void main(String[] args) {
@@ -12,3 +14,4 @@ public class MainEntry {
 	}
 
 }
+*/

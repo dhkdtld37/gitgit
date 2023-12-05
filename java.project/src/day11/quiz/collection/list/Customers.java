@@ -5,51 +5,72 @@
  */
 package day11.quiz.collection.list;
 
+import java.util.Scanner;
+
 public class Customers {
-	private String name, address, tel;
-	
-	public Customers() {
-		this.name = "noName";
-		this.address = "Seoul";
-		this.tel = "010-0000-0000";
-	}
-	
-	public Customers(String name, String address, String tel) {
-		super();
-		this.name = name;
-		this.address = address;
-		this.tel = tel;
-	}
+    String name;
+    String address;
+    String tel;
+    String field;
 
+    public Customers() {
 
+    }
 
-	public String getName() {
-		return name;
-	}
+    public Customers(String name, String address, String tel, String field) {
+        this.name = name;
+        this.address = address;
+        this.tel = tel;
+        this.field = field;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public String getAddress() {
-		return address;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
+    public String getAddress() {
+        return address;
+    }
 
-	public String getTel() {
-		return tel;
-	}
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
-	public void setTel(String tel) {
-		this.tel = tel;
-	}
+    public String getTel() {
+        return tel;
+    }
 
-	public String toString() {
-		return "Customers [name=" + name + ", address=" + address + ", tel=" + tel + "]";
-	}
-	
+    public void setTel(String tel) {
+        this.tel = tel;
+    }
 
+    public String getField() {
+        return field;
+    }
+
+    public void setField(String field) {
+        this.field = field;
+    }
+
+    public Customers add() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("이름을 입력 하세요");
+        name = sc.next();
+        System.out.println("주소를 입력 하세요");
+        address = sc.next();
+        System.out.println("전화 번호를 입력 하세요");
+        tel = sc.next();
+        System.out.println("필드를 입력 하세요");
+        field = sc.next();
+
+        return this;
+    }
+
+    public void print() {
+        System.out.println("이름 : " + name + ", 주소 : " + address + ", 전화 번호 : " + tel + ", 필드 : " + field);
+    }
 }
