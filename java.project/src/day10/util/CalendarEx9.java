@@ -1,4 +1,4 @@
-package util1201;
+package day10.util;
 import java.util.*; 
 
 class CalendarEx9 { 
