@@ -1,27 +1,46 @@
-// 세로 읽기
+// 약수의 합
 package groupquiz;
 
 import java.util.Scanner;
 
 public class group213 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        char[][] words = new char[5][15];
-
-        for (int i = 0; i < 5; i++) {
-            String word = sc.next();
-            words[i] = word.toCharArray();
-        }
-
-        StringBuilder result = new StringBuilder();
-        for (int i = 0; i < 15; i++) {
-            for (int j = 0; j < 5; j++) {
-                if (i < words[j].length) {
-                    result.append(words[j][i]);
-                }
-            }
-        }
-
-        System.out.println(result.toString());
-    }
+	
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		
+		int n = 0;
+		while(true){
+			n = sc.nextInt();
+			
+			if(n!=-1){
+			
+				int sum=0;
+				String X = "";
+				for(int i=1; i<n; i++){
+					if(n%i==0){
+						sum+=i;
+					}
+				}
+				if(sum==n){
+					X += n + " = ";
+					for(int i=1; i<n; i++){
+						if(i==1){
+							X += 1;
+						}else{
+							if(n%i==0){
+								X += " + " + i;
+								sum+=i;
+							}
+						}
+					}
+				} else {
+					System.out.print(n + " is NOT perfect.");
+				}
+				System.out.println(X);
+			} else {
+				break;
+			}
+		}
+	}
 }

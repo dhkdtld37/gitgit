@@ -1,16 +1,19 @@
-// 백준 저항 @@ 전혀 모르겠음
+// 단어의 갯수 - 백준
 package groupquiz;
-import java.util.*;
+import java.util.Scanner;
 public class group206 {
 	public static void main(String[] args) {
-		String [] resArr = { "black", "brown", "red", "ornage", "yellow", "green",
-				"blue", "violet", "gray", "white" };
-		Scanner sc = new Scanner(System.in);
-		String sb = String.valueOf(Arrays.asList(resArr).indexOf(sc.nextLine())) +
-				Arrays.asList(resArr).indexOf(sc.nextLine()) +
-				"0".repeat(Arrays.asList(resArr).indexOf(sc.nextLine()));
-		long isb = Long.parseLong(String.valueOf(sb));
-		System.out.println(isb);
-	}
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine().trim();
 
+        if (s.isEmpty()) {
+            System.out.print(0);
+            return;
+        }
+
+        String[] words = s.split("\\s+");
+        int count = words.length;
+        System.out.print(count);
+    }
 }
+

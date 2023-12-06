@@ -1,34 +1,39 @@
-// 문자열 반복 - 백준
+// 약수의 합2 - 백준
 package groupquiz;
+
 import java.util.Scanner;
 
 public class group209 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        long result = g(N);
+        System.out.println(result);
+    }
+
+    static long g(int N) {
+        long sum = 0;
         
-        int a = sc.nextInt();
-        
-        for (int i = 0; i < a; i++) {
-            int num = sc.nextInt();
-            sc.nextLine();
+        for (int i = 1; i <= N; i++) {
+            sum += f (i);
+        }
 
-            if (num <= 0) {
-                return;
-            }
+        return sum;
+    }
 
-            String index = sc.nextLine();
+    static long f(int A) {
+        long sum = 0;
 
-            if (index.length() > 100) {
-                return;
-            }
-
-            for (int j = 0; j < index.length(); j++) {
-                for (int k = 0; k < num; k++) {
-                    System.out.print(index.charAt(j));
+        for (int i = 1; i * i <= A; i++) {
+            if (A % i == 0) {
+                sum += i;
+                if (i * i != A) {
+                    sum += A / i;
                 }
             }
-
-            System.out.println();
         }
+
+        return sum;
     }
 }
