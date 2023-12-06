@@ -1,5 +1,5 @@
 package day11.collection.set;
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 public class HashSetEx04 {
 	public static void main(String[] args) {
 		A a = new A ();

@@ -1,12 +1,13 @@
-package day12.quiz;
+package day12.quiz0102;
 
+import java.util.Date;
 import java.util.Scanner;
 
-public class MainEntry {
+public class MainEntry {	
 	static String title;
-	static String lend;
+	static char lend;
 	static String lendN;
-	static String lendD;
+	static Date lendD;
 	
 	public static void menu() {
 		System.out.println("\n\n******** 메뉴 **********");
@@ -87,11 +88,11 @@ public class MainEntry {
 		System.out.println("비디오 제목 : ");
 		title = sc.next();
 		System.out.println("대여 여부 : ");
-		lend = sc.next();
+//		lend = sc.equals();
 		System.out.println("대여자 ( 고객명) : ");
 		lendN = sc.next();
 		System.out.println("대여 일자 : ");
-		lendD = sc.next();
+//		lendD = sc.next();
 		
 	}
 

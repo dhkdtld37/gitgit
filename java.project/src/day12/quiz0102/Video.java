@@ -8,18 +8,19 @@
  Video 추가 / 삭제 / Video 리스트 출력 / 수정 / 프로그램 종료 출력하는
  프로그램 작성
  */
-package day12.quiz;
+package day12.quiz0102;
+
+import java.util.Date;
 
 public class Video {
-	protected String title;
-	protected String lend;
-	protected String lendN;
-	protected String lendD;
+	String title, lendN;
+	char lend;
+	Date lendD;
 	
 	Video() {
 	}
 
-	Video(String title, String lend, String lendN, String lendD) {
+	Video(String title, char lend, String lendN, Date lendD) {
 		this.title = title;
 		this.lend = lend;
 		this.lendN = lendN;
