@@ -9,7 +9,7 @@ class TreeSetEx2{
 		for(int i=0; i < score.length; i++)
 			set.add(new Integer(score[i]));
 
-		System.out.println("50���� ���� �� :" + set.headSet(new Integer(50)));
-		System.out.println("50���� ū �� :" + set.tailSet(new Integer(50)));
+		System.out.println("50보다 작은 원소들 출력 :" + set.headSet(new Integer(50)));
+		System.out.println("50보다 큰 원소들 출력 :" + set.tailSet(new Integer(50)));
 	}
 }
