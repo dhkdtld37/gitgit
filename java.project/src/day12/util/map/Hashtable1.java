@@ -18,7 +18,7 @@ class Hashtable1  {
 		while(enu.hasMoreElements()){
 			Object key = enu.nextElement();
 			Object value = ht.get(key);
-			System.out.println("키 = "+key+"값 "+value);
+			System.out.println("키 = "+key+", 값 = "+value);
 		}
 	}
 }
