@@ -23,6 +23,7 @@ public class MainEntry {
 				System.out.println("사칙연산 기호 : ");
 				str = br.readLine();
 				
+				
 				if ( str != null && str.equals("+") || str.equals("-") || str.equals("*") || str.equals("/") ) {
 					break;
 				} else {

@@ -31,7 +31,7 @@ class HashMapEx3 {
 	}
 
 	static void addPhoneNo(String name, String tel) {
-		addPhoneNo("��Ÿ", name, tel);
+		addPhoneNo("기타", name, tel);
 	}
 
 	// 전화번호부 전체를 출력하는 메서드
