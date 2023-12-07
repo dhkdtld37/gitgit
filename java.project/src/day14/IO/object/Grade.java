@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Grade implements Serializable {
 	private String subject; 	// 과목
-	private int score;			// 자ㅓㅁ수
+	private int score;			// 점수
 	
 	public String getSubject() {
 		return subject;
